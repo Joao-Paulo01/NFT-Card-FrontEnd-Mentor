@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* ===== Container ===== */
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+
+  max-width: 350px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.container > img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.container h1 {
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 20px;
+}
+
+.container p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+/* ===== Text Line ===== */
+
+.text-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.value p {
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+  margin-left: 8px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.time p {
+  margin-left: 8px;
+}
+
+/* ===== Line ===== */
+
+.line {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  margin: 10px 0;
+}
+
+/* ===== Info Creation ===== */
+
+.info-creation {
+  display: flex;
+  align-items: center;
+}
+
+.info-creation img {
+  width: 10%;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.info-creation span {
+  color: hsl(0, 0%, 100%);
+}
